@@ -22,7 +22,7 @@ form {
    margin-top: 0px;
    background-position: center center;
    background-size: cover;
-  background-image: url('../img/header-bg.jpg');
+  background-image: url("../img/header-bg.jpg");
    background-attachment: fixed;
   }
   .profile h1{
@@ -95,7 +95,7 @@ form {
   display: block;
 }
 .skill {
-  background-image: url('../img/mypic2.jpg');
+  background-image: url("../img/mypic2.jpg");
   background-size: cover;
   background-attachment: fixed;
   padding-top: 100px;
@@ -115,7 +115,7 @@ padding-bottom: 100px;
 
 .contact {
   background-color: orange;
-  background-image: url('../img/map.png');
+  background-image: url("../img/map.png");
   background-size: cover;
   background-repeat: round;
   font-size: 20px;
