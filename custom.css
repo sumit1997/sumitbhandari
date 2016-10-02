@@ -1,0 +1,154 @@
+.navbar-inverse{
+  border-radius: 0px;
+  background-color:orange;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 20px;
+  font-family:monospace;
+}
+li {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+form {
+  color:white;
+}
+ .profile {
+   height: 100vh;
+   width: 100%;
+   margin-top: 0px;
+   background-position: center center;
+   background-size: cover;
+  background-image: url('../img/header-bg.jpg');
+   background-attachment: fixed;
+  }
+  .profile h1{
+    padding-top: 250px;
+   color: white;
+   font-size:4em;
+   font-weight: 700;
+   }
+   .profile h1::after{
+     content: " ";
+     height: 5px;
+     width: 300px;
+     margin-left: auto;;
+     margin-right: auto;
+     background-color: white;
+     display: block;
+   }
+   .profile h1::before{
+     content: " ";
+     height: 5px;
+     width: 250px;
+     margin: 0 auto;
+     background-color: white;
+     display: block;
+   }
+
+
+
+.about {
+  background-color: gray;
+}
+
+.about p {
+  color:white;
+  font-style: italic;
+  font-size: 2em;
+  font-family: monospace;
+  font-weight: 900px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: justify;
+}
+
+
+.about h1{
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+  padding-top: 100px;
+
+}
+.about-deco::after{
+  content: " ";
+  height: 8px;
+  width: 50px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  display: block;
+}
+ .about-deco::before{
+  content: " ";
+  height: 4px;
+  width: 250px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  display: block;
+}
+.skill {
+  background-image: url('../img/mypic2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 100px;
+  border-width: inherit;
+
+}
+
+.skill h1 {
+
+  color: white;
+  font-size:50px;
+}
+.skill .skill-positon{
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.contact {
+  background-color: orange;
+  background-image: url('../img/map.png');
+  background-size: cover;
+  background-repeat: round;
+  font-size: 20px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+.contact h1,h2,h3{
+  font-weight: bolder;
+  color: black;
+  margin-top: 100px;
+}
+.glyphicon-envelope,.glyphicon-phone{
+  font-size: 2em;
+  margin-top: 10px;
+}
+.glyphicon{
+  right: 4px;
+}
+.icon {
+    position: relative;
+    top: 17px;
+    right: 20px;
+  }
+.sign-up{
+  padding-top: 200px;
+  padding-bottom: 100px;
+  background-color: rgb(59, 89, 94);
+  height:100vh;
+}
+
+.login {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  background-color:rgb(88, 52, 88);
+  height:100vh;
+}
